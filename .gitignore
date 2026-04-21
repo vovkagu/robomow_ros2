@@ -1,6 +1,13 @@
-log
-__pycache__
-*.pyc
-**/__pycache__/**
-**.pyc
+# ROS2 Build Artifacts
+build/
+install/
+log/
 COLCON_IGNORE
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# System
+.DS_Store
